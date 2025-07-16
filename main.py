@@ -4,6 +4,8 @@ from agent_graph import build_brand_simulation_graph
 
 from orchestrator.ipo_simulator_orchestrator import ipo_orchestrator
 
+from api_key import api_key  # Import the API key from the api_key module
+
 
 # Build graph
 workflow = build_brand_simulation_graph()
@@ -38,7 +40,7 @@ def main():
     groq_llm = ChatGroq(
         model="mistral-saba-24b",
         temperature=1.0,
-        api_key="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"  # Replace with your Groq API key
+        api_key=api_key  # Replace with your Groq API key
     )
 
     feedback_prompt = PromptTemplate(

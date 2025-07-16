@@ -2,7 +2,9 @@
 from groq import Groq
 import os
 
-client = Groq(api_key="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")
+from api_key import api_key  # Import the API key from the api_key module
+
+client = Groq(api_key=api_key)
 
 def simulate_feedback(brand_attr, market, change_pct):
     prompt = f"""

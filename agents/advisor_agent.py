@@ -3,10 +3,12 @@
 from langchain_groq import ChatGroq
 import os
 
+from api_key import api_key  # Import the API key from the api_key module
+
 llm = ChatGroq(
     model="mistral-saba-24b",
     temperature=1.0,
-    api_key="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"
+    api_key=api_key
 )
 def advisor_chat(state: dict) -> dict:
     """Returns final explanation from LangChain-powered LLM to the banker."""
@@ -27,6 +29,8 @@ def advisor_chat(state: dict) -> dict:
 from datetime import datetime
 from typing import Dict, List
 
+from api_key import api_key  # Import the API key from the api_key module
+
 # agents/advisor_chat.py
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -38,7 +42,7 @@ from langchain_groq import ChatGroq
 llm = ChatGroq(
     model="mistral-saba-24b",
     temperature=1.0,
-    api_key="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"
+    api_key=api_key
 )
 
 # Prompt template for generating banker-style advice

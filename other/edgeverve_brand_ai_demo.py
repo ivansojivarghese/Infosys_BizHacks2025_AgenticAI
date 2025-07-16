@@ -13,11 +13,13 @@ from langchain_core.runnables import RunnableLambda
 import random
 import os
 
+from api_key import api_key  # Import the API key from the api_key module
+
 # --- Define the LLM ---
 llm = ChatGroq(
     model="mistral-saba-24b",
     temperature=0.4,
-    api_key="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"
+    api_key=api_key  # Replace with your Groq API key
 )
 
 # --- Define Tools ---
