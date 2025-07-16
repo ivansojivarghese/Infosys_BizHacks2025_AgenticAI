@@ -6,7 +6,7 @@ import os
 llm = ChatGroq(
     model="mistral-saba-24b",
     temperature=1.0,
-    api_key="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"
+    api_key="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"
 )
 def advisor_chat(state: dict) -> dict:
     """Returns final explanation from LangChain-powered LLM to the banker."""
@@ -38,7 +38,7 @@ from langchain_groq import ChatGroq
 llm = ChatGroq(
     model="mistral-saba-24b",
     temperature=1.0,
-    api_key="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"
+    api_key="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"
 )
 
 # Prompt template for generating banker-style advice

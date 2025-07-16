@@ -2,7 +2,7 @@
 from groq import Groq
 import os
 
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 def simulate_feedback(brand_attr, market, change_pct):
     prompt = f"""
