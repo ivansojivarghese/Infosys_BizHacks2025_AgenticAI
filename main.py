@@ -38,7 +38,7 @@ def main():
     groq_llm = ChatGroq(
         model="mistral-saba-24b",
         temperature=1.0,
-        api_key="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"  # Replace with your Groq API key
+        api_key="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"  # Replace with your Groq API key
     )
 
     feedback_prompt = PromptTemplate(

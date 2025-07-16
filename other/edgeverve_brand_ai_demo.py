@@ -17,7 +17,7 @@ import os
 llm = ChatGroq(
     model="mistral-saba-24b",
     temperature=0.4,
-    api_key="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"
+    api_key="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"
 )
 
 # --- Define Tools ---
