@@ -8,7 +8,7 @@ Problem Statement: How might we design a scalable and responsive measurement fra
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/agentic-brand-measurement.git
+git clone https://github.com/ivansojivarghese/Infosys_BizHacks2025_AgenticAI.git
 ```
 
 Install dependencies
