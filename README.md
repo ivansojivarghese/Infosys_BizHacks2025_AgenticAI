@@ -3,6 +3,28 @@
 Problem Statement: How might we design a scalable and responsive measurement framework - powered by AI or agentic systems - that can track brand performance and connect it to business metrics such as lead quality, sales velocity, and cleint engagement?
 
 
+# Setup Instructions: 
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/agentic-brand-measurement.git
+```
+
+Install dependencies
+(We recommend using a virtual environment)
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the Streamlit app
+
+```bash
+streamlit run main.py
+```
+
+
 🔑 Getting a Groq API Key
 Go to https://console.groq.com/keys.
 
